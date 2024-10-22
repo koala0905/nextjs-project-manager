@@ -3,9 +3,6 @@ import React, { useEffect } from 'react'
 import Navbar from '@/components/Navbar';
 import Sidebar from '@/components/Sidebar';
 import StoreProvider, { useAppSelector } from './redux';
-import state from '@/state';
-
-type Props = {}
 
 const DashboardLayout = ({ children }: { children: React.ReactNode }) => {
   const isSidebarCollapsed = useAppSelector((state) => state.global.isSidebarCollapsed);
