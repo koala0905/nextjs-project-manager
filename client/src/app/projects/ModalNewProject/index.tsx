@@ -1,6 +1,5 @@
 import Modal from '@/components/Modal';
 import { useCreateProjectMutation } from '@/state/api';
-import { FormControl } from '@mui/material';
 import React, { useState } from 'react';
 import { formatISO } from 'date-fns';
 

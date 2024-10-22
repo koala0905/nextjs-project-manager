@@ -2,7 +2,6 @@
 import { Priority, Project, Task, useGetProjectsQuery, useGetTasksQuery } from '@/state/api';
 import React from 'react'
 import { useAppSelector } from '../redux';
-import state from '@/state';
 import { DataGrid, GridColDef } from '@mui/x-data-grid';
 import Header from '@/components/Header';
 import { Bar, BarChart, CartesianGrid, Cell, Legend, Pie, PieChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
