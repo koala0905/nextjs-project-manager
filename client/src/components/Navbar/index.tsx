@@ -65,7 +65,7 @@ const Navbar = () => {
                         )}
                     </div>
                     <span className='mx-3 text-gray-800 dark:text-white'>
-                        {currentUserDetails?.username}
+                        Hi, {currentUserDetails?.username}
                     </span>
                     <button className='hidden rounded bg-blue-400 px-4 py-2 text-xs font-bold text-white hover:bg-blue-500 md:block'
                         onClick={handleSignOut}>
